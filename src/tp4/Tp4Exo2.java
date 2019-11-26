@@ -8,7 +8,7 @@ public class Tp4Exo2 {
 		float note=0, moy=0;
 		int i=0;
 		Scanner saisie=new Scanner(System.in);		
-		while (note!=-1)
+		while (note>=0)
 			System.out.println("Saisissez vos notes, -1 pour arreter la saisie : ");
 			note=saisie.nextFloat();
 			moy+=note;

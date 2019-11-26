@@ -11,9 +11,10 @@ public class Tp4Exo3 {
 		System.out.println("Saisissez la longueur du triange : ");
 		x=saisie.nextInt();
 				
-		for (i=0;i<=x;i++)
+		for (i=1;i<=x;i++) {
 		 chaine+="*";
 		 System.out.println(chaine);
+		}
 		saisie.close();
 	}
 
