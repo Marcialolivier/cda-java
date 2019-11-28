@@ -1,0 +1,27 @@
+package tp6;
+
+import java.util.Scanner;
+
+public class Tp6Exo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Saisissez un mot : ");
+		String mot = sc.next();
+		
+		int motLong = mot.length(), j=0;
+		char[] tabMot = new char[motLong];
+						
+		for (int i = 0; i < motLong; i++) {
+			tabMot[i] = mot.charAt(i);
+			if (mot.charAt(i) == 'e') {
+				j++;
+			}
+		}
+		
+		System.out.println("Il y a "+j+" lettre e dans le mot.");
+	}
+
+}
