@@ -26,7 +26,7 @@ public class Tp5Exo3 {
 					int permut = tab[j];
 					tab[j] = tab[i];
 					tab[i] = permut;
-					System.out.println(Arrays.toString(tab));				}
+				}
 			}
 		}
 
