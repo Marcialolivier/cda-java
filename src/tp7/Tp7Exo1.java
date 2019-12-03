@@ -21,7 +21,7 @@ public class Tp7Exo1 {
 		double resultat;
 		resultat = 2 * Math.PI * rayon;
 		return resultat;
-
+   
 	}
 
 	public static double surface(double rayon) {

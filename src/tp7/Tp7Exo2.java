@@ -15,7 +15,7 @@ public class Tp7Exo2 {
 		}
   
 		int max = plusGrand(tab);
-
+ 
 		System.out.println("le plus grand chiffre est :" + max);
 	}
 
