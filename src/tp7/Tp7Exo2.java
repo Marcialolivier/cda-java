@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Tp7Exo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		Scanner sc = new Scanner(System.in);
 		int[] tab = new int[3];
 
@@ -13,7 +13,7 @@ public class Tp7Exo2 {
 			System.out.println("Saisissez un entier " + i + ": ");
 			tab[i] = sc.nextInt();
 		}
-
+  
 		int max = plusGrand(tab);
 
 		System.out.println("le plus grand chiffre est :" + max);
